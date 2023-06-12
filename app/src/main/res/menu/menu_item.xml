@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/search"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_add"
+        android:icon="@drawable/add"
+        android:title="Add"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_soluong"
+        android:title="So luong"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_dangxuat"
+        android:title="Dang Xuat"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Animation">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="FAN"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgquat"
+        android:src="@drawable/hn"
+        android:layout_width="400dp"
+        android:layout_margin="20dp"
+        android:layout_height="400dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnnhanh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/background"
+            android:text="NHANH" />
+
+        <Button
+            android:id="@+id/btnvua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/background"
+            android:text="VUA" />
+
+        <Button
+            android:id="@+id/btncham"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:text="CHAM" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnoff"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:text="OFF"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp" />
+
+</LinearLayout>
